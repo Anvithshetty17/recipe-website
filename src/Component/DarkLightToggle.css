@@ -1,0 +1,22 @@
+.toggle-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 3rem;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .toggle-btn:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  
+  .dark-mode .toggle-btn {
+    color: #f7c04a; /* Light color for the button in dark mode */
+  }
+  @media (max-width: 768px) {
+    .toggle-btn {
+        font-size: 2.4rem;
+    }
+
+  }
